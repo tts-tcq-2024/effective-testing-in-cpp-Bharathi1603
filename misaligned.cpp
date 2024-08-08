@@ -33,6 +33,7 @@ int main()
     printColorMap();
     assert(getColorCodePair(7, majorColors, minorColors) == "7 | Red | Orange");
     assert(getColorCodePair(16, majorColors, minorColors) == "16 | Yellow | Blue");
+    assert(getColorCodePair(24, majorColors, minorColors) == "24 | Violet | Slate");
     std::cout << "All is well (maybe!)\n";
     return 0;
 }
